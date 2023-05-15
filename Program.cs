@@ -14,7 +14,12 @@ namespace CursoCSharp {
                 {"Operadores Aritméticos - Fundamentos",OperadoresAritmeticos.Executar},
                 {"exercicio 1 - Fundamentos",exercicio_1.Executar},
                 {"exercicio 2 - Fundamentos",exercicio_2.Executar},
-                {"exercicio 3 - Fundamentos",exercicio_3.Executar}
+                {"exercicio 3 - Fundamentos",exercicio_3.Executar},
+                {"MaiorIdade - Fundamentos",MaiorIdade.Executar},
+                {"Strings - Fundamentos",Strings.Executar},
+                {"CalculeMedia - Fundamentos",CalculeMedia.Executar},
+                {"IMC - Fundamentos",IMC.Executar}
+
 
             }) ;
 
