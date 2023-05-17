@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using CursoCSharp.Fundamentos;
 
-namespace CursoCSharp {
+namespace CursoCSharp.EstruturaDeControle
+{
     class Program {
         static void Main(string[] args) {
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
@@ -18,7 +19,10 @@ namespace CursoCSharp {
                 {"MaiorIdade - Fundamentos",MaiorIdade.Executar},
                 {"Strings - Fundamentos",Strings.Executar},
                 {"CalculeMedia - Fundamentos",CalculeMedia.Executar},
-                {"IMC - Fundamentos",IMC.Executar}
+                {"IMC - Fundamentos",IMC.Executar},
+                {"Executar Switch - Estrutura De Controle", ExecutarSwitch.Executar},
+                {"Estrutura While e For - Estrutura De Controle", EstruturaWhileEFor.Executar}
+
 
 
             }) ;
