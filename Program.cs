@@ -22,7 +22,8 @@ namespace CursoCSharp.EstruturaDeControle
                 {"IMC - Fundamentos",IMC.Executar},
                 {"Executar Switch - Estrutura De Controle", ExecutarSwitch.Executar},
                 {"Estrutura While e For - Estrutura De Controle", EstruturaWhileEFor.Executar},
-                {"NumerosInteiros", NumerosInteiros.Executar}
+                {"NumerosInteiros", NumerosInteiros.Executar},
+                {"Estrutura Foreach", EstruturaForEach.Executar}
 
 
 
