@@ -21,7 +21,8 @@ namespace CursoCSharp.EstruturaDeControle
                 {"CalculeMedia - Fundamentos",CalculeMedia.Executar},
                 {"IMC - Fundamentos",IMC.Executar},
                 {"Executar Switch - Estrutura De Controle", ExecutarSwitch.Executar},
-                {"Estrutura While e For - Estrutura De Controle", EstruturaWhileEFor.Executar}
+                {"Estrutura While e For - Estrutura De Controle", EstruturaWhileEFor.Executar},
+                {"NumerosInteiros", NumerosInteiros.Executar}
 
 
 
