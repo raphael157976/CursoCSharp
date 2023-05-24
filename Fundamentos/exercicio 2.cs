@@ -15,7 +15,7 @@ namespace CursoCSharp.Fundamentos
             double n1 = double.Parse(Console.ReadLine());
 
             Console.WriteLine("Digite a segunda nota:");
-            double n2 = double.Parse(Console.ReadLine())
+            double n2 = double.Parse(Console.ReadLine());
 
             double media = (n1 * 3.5 + n2 * 7.5) / 11;
 
