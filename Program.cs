@@ -31,8 +31,10 @@ namespace CursoCSharp.EstruturaDeControle
                 {"Membros - Classes e Métodos",Membros.Executar},
                 {"Construtores - Classes e Métodos",Construtores.Executar},
                 {"Metodos com Retorno - Classes e Métodos",MetodosComRetorno.Executar},
-                {"Exercicios Metodos com Retorno - Classes e Métodos",ExerciciosMetodosComRetorno.Executar}
-
+                {"Exercicios Metodos com Retorno - Classes e Métodos",ExerciciosMetodosComRetorno.Executar},
+                {"Get e Set - Classes e Métodos",GetSet.Executar},
+                {"Get e Set segundo exemplo - Classes e Métodos",GetESetSegundoExemplo.Executar},
+                {"Gets e Sets - Classes e Métodos",GetsESets.Executar}
             }) ;
 
             central.SelecionarEExecutar();
