@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using CursoCSharp.Fundamentos;
 using CursoCSharp.ClassesEMetodos;
+using CursoCSharp.Colecoes;
 
 namespace CursoCSharp.EstruturaDeControle
 {
@@ -34,7 +35,12 @@ namespace CursoCSharp.EstruturaDeControle
                 {"Exercicios Metodos com Retorno - Classes e Métodos",ExerciciosMetodosComRetorno.Executar},
                 {"Get e Set - Classes e Métodos",GetSet.Executar},
                 {"Get e Set segundo exemplo - Classes e Métodos",GetESetSegundoExemplo.Executar},
-                {"Gets e Sets - Classes e Métodos",GetsESets.Executar}
+                
+
+                //Colecoes
+                {"Colecoes - Colecoes",Queue.Executar},
+                {"Stack - Colecoes", Queue.Executar}
+            
             }) ;
 
             central.SelecionarEExecutar();
