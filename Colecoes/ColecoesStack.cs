@@ -15,9 +15,28 @@ namespace CursoCSharp.Colecoes
 
             //adicionando elementos na pilha
             pilha.Push(3);
-            pilha.Push("A");
+            pilha.Push("a");
             pilha.Push(true);
             pilha.Push(3.14);
+
+            //exibindo elementos da pilha
+            foreach(var item in pilha)
+            {
+                Console.WriteLine($"{item}");
+            }
+
+            //removendo um elemento da pilha
+            Console.WriteLine($"Pop: {pilha.Pop()}");
+
+            //percorrendo novamente para verificar se o elemento foi removido
+            foreach (var item in pilha)
+            {
+                Console.WriteLine($"{item}");
+            }
+            //usando peek
+            Console.WriteLine($"Peek: {pilha.Peek()}");
+            //contando os elementos
+            Console.WriteLine(pilha.Count);
 
         }
     }

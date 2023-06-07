@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using CursoCSharp.Fundamentos;
 using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
+using CursoCSharp.POO;
 
 namespace CursoCSharp.EstruturaDeControle
 {
@@ -39,8 +40,12 @@ namespace CursoCSharp.EstruturaDeControle
 
                 //Colecoes
                 {"Colecoes - Colecoes",Queue.Executar},
-                {"Stack - Colecoes", Queue.Executar}
-            
+                {"Stack - Colecoes", Queue.Executar},
+
+                //POO
+                {"Herança - POO",Heranca.Executar},
+                {"Construtor This - POO",ConstrutorThis.Executar},
+                {"Encapsulamento - POO",Encapsulamento.Executar},
             }) ;
 
             central.SelecionarEExecutar();
