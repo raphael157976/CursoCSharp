@@ -4,6 +4,7 @@ using CursoCSharp.Fundamentos;
 using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
 using CursoCSharp.POO;
+using CursoCSharp.MetodosEFuncoes;
 
 namespace CursoCSharp.EstruturaDeControle
 {
@@ -44,8 +45,16 @@ namespace CursoCSharp.EstruturaDeControle
 
                 //POO
                 {"Herança - POO",Heranca.Executar},
-                {"Construtor This - POO",ConstrutorThis.Executar},
-                {"Encapsulamento - POO",Encapsulamento.Executar},
+                {"Construtor This - POO",ConstrutorThis.Executar},                
+                {"Abstract - POO",Abstract.Executar},
+                {"Sealed - POO",Sealed.Executar},
+
+                //Métodos e Funções
+                {"Exemplo Lambda - Metodos e Funcoes",ExemploLambda.Executar },
+                {"Exemplo Lambda2 - Metodos e Funcoes",ExemploLambda2.Executar },
+
+                //Excecoes
+                {"Excecoes - Excecoes",PrimeiraExcecao.Executar }
             }) ;
 
             central.SelecionarEExecutar();
